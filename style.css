@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #f9fafb;
+    color: #111827;
+    padding: 2rem;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  h1, h2 {
+    text-align: left;
+  }
+  
+  .card {
+    background-color: #ffffff;
+    padding: 1.5rem;
+    width: 100%;
+    max-width: 600px;
+  }
+
+  #clickMe {
+    width: 100%;
+    padding: 1rem;
+    font-size: 20px;
+    background-color: red;
+  }
+  
+  button {
+    padding: 0.5rem 1rem;
+    margin: 0.3rem;
+    background-color: #2574eb;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  ul {
+    padding-left: 1.2rem;
+  }
+  

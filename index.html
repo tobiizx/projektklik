@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Statystyki strony</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Statystyki strony</h1>
+  <div class="card">
+    <p><strong>Odwiedziny ogółem:</strong> <span id="visitCount">0</span></p>
+    <p><strong>Kliknięcia w tej sesji:</strong> <span id="clickCount">0</span></p>
+  </div>
+  <div class="card">
+    <button id="clickMe">Kliknij mnie!</button>
+  </div>
+  <div class="card reset-buttons">
+    <h2>Przyciski resetu</h2>
+    <button onclick="resetAll()">Resetuj wszystko</button>
+    <button onclick="resetVisits()">Resetuj odwiedziny</button>
+    <button onclick="resetClicks()">Resetuj kliknięcia tej sesji</button>
+    <button onclick="resetSessions()">Resetuj historię sesji</button>
+  </div>
+  <div class="card">
+    <h2>Historia sesji</h2>
+    <ul id="sessionList"></ul>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
